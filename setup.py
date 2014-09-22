@@ -1,9 +1,9 @@
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 DISTNAME='rescuetime'
 FULLVERSION='0.1'
 
 setup(name=DISTNAME,
       version=FULLVERSION,
-      packages=['rescuetime']
+      packages=find_packages()
       )
